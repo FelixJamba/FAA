@@ -1,0 +1,11 @@
+html
+{
+  font-size: 62.5%; /*10 px*/
+}
+
+body
+{
+	margin: 0;
+	font-style: arial, Helvetica, sans-serif;
+	font-size: 1.4rem;
+}

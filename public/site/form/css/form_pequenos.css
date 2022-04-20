@@ -1,0 +1,135 @@
+*{margin: 0; padding: 0;}
+
+
+body{ font-family: "Trebuchet MS", tahoma, arial; }
+
+#formulario2{
+	width: 90%;
+	margin: 15px auto;
+	text-align:center;
+	position:relative;
+	
+	border-radius: 15px;
+
+}
+
+#formulario2 h2{
+	font:22px "Trebuchet MS", tahoma, arial;
+	color:#030756;
+	width: 100%;
+	float: left;
+	text-align:center;
+	margin-bottom: 4px;
+	font-weight: bold;
+
+
+}
+
+
+
+#formulario2 fieldset{
+
+background: white;
+border:none;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+
+box-shadow:0 0 8px 1px rgba(0,0,0,0.4);
+padding: 20px 30px;
+
+box-sizing: border-box;
+width: 70%; 
+margin-left: 15%;
+
+}
+
+
+#formulario2 input, #formulario2 textarea, #formulario2 select  
+{
+	padding: 10px;
+	border:1px solid rgba(0,0, 0,0.9) ;
+	border-radius:4px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	outline: none;
+	box-sizing: border-box ; 
+	width: 100%;
+	font:14px "Trebuchet MS", tahoma, arial;
+	color: #000;
+	margin-bottom:10px; 
+}
+
+#formulario2 .acao{
+   width:100px;
+   background: #000;
+   color:white;
+   text-transform: uppercase;
+   font-weight: bold;
+   padding: 10px 0;
+   float: left;
+   margin-right: 5%;
+
+}
+
+#formulario2 .acao:hover{background: #030756; cursor:pointer;
+}
+ 
+
+ /*Luz nos elementos de texto  */
+
+input[type=text]:focus, textarea:focus select:focus {
+  box-shadow: 0 0 4px rgba(81, 203, 238, 0.8);
+  
+  
+}
+
+label{ text-align: left; float: left; margin-bottom: 4px; 
+	   font:18px "Trebuchet MS", tahoma, arial; font-weight: bold; }
+
+.titulo_pag1{
+
+ height: 40px; 
+ 
+ padding: 5px 0; 
+ 
+ background-color: #fff;
+ 
+ border:1px solid rgba(7,78, 139,0.9) ;
+ box-shadow:0 0 8px 1px rgba(0,0,0,0.4);
+ border-bottom-right-radius: 20px;
+ border:0;
+ 
+ margin-left: 18%;
+}
+
+.efeito1{ height: 40px; width: 5px; background-color: #a0640f;
+ float: left; margin-top: -41px}
+
+ .titulo_pag1 p
+{ 
+  font-size: 25px; 
+  
+  margin: 0 auto; 
+  margin-left: 8px; 
+  color: #000; }
+
+@mediascreen and (max-width: 800px)
+{
+    #formulario2 fieldset{
+    
+    width: 100%; 
+    margin-left: 1%;
+	
+
+}  
+
+
+.titulo_pag1{
+	margin-left: 6%;
+	margin-top: 5%; 
+} 
+
+
+
+}

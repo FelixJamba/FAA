@@ -1,0 +1,54 @@
+.layout-cabecalho
+{
+	height: 20%;
+	
+	border-bottom: 2px solid #f5a10e;
+	background-color: #080707;
+}
+
+.layout-cabecalho img 
+{
+   margin-left: 35px; 
+   margin-top: 12px;
+}
+.layout-rodape
+{
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+
+
+
+   padding: 8px 0;
+   background-color: #fff;
+   
+   color: #fff;
+   text-align: left;
+} 
+
+@media screen and (max-width: 800px)
+{
+    .layout-rodape
+{
+   
+   height: 40px;
+
+} 
+
+.layout-rodape div p{text-align: center; font-size: 12px;}
+
+
+
+}
+
+.layout-rodape div p{text-align: center;}
+
+@media(max-width: 749px){
+
+.layout-planos .row > div:not(.ultima-coluna)
+{
+	margin-bottom: 40px;
+}
+
+}
+

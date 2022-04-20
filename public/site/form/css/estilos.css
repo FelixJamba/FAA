@@ -1,0 +1,46 @@
+.caixa1 
+{
+   background-color: blue; 
+   color: white;
+}
+
+.caixa2 
+{
+   background-color: rgb(255,0,0); 
+   color: rgb(0,0,0);
+}
+
+.caixa3
+{
+   background-color: rgb(255,200,0); 
+   color: rgb(255,255,255);
+}
+
+.caixa4
+{
+   background-color:#ff00c8; 
+   color: #ddff00;
+}
+
+.caixa5
+{
+   background-color:#0f0; 
+   color: #000; 
+
+}
+
+.luena
+{
+   color: #f00;
+   font-size: 24px;
+   font-family: "trebuchet MS", sans-serif;
+   font-style: italic;
+   font-weight: bold;
+   text-align: center;
+   text-decoration: underline;
+}
+
+.design
+{
+   font-family: Palatino, serif; 
+}
